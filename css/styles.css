@@ -39,3 +39,32 @@ h1{
 .btnContainer button{
   padding: 5px 15px;
 }
+
+.tarjeta{
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.tarjeta:hover { transform : scale(1.05); 
+  transition : 0.3s; 
+  background-image: 
+  linear-gradient(to top, #accbee 0%, #e7f0fd 100%); 
+} 
+
+.tarjeta img{
+  border-radius:50%;
+}
+
+
+.tarjeta .nombre{
+  text-transform: capitalize;
+
+}
